@@ -15,6 +15,7 @@
 		115694461F63D76F007B0696 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115694451F63D76F007B0696 /* LoginViewController.m */; };
 		1164D27E1F63DC4000DCC7E3 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164D27D1F63DC4000DCC7E3 /* LoginViewModel.m */; };
 		1164D2811F63DC5E00DCC7E3 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164D2801F63DC5E00DCC7E3 /* UserInfo.m */; };
+		118FA8AB1F751709003624B0 /* tint.png in Resources */ = {isa = PBXBuildFile; fileRef = 118FA8AA1F751708003624B0 /* tint.png */; };
 		D88937B80178356C41877702 /* libPods-HP_MVVMRACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC01480C2758996D2A83FD12 /* libPods-HP_MVVMRACDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		1164D27D1F63DC4000DCC7E3 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		1164D27F1F63DC5E00DCC7E3 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		1164D2801F63DC5E00DCC7E3 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		118FA8AA1F751708003624B0 /* tint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tint.png; sourceTree = "<group>"; };
 		BD175CAA0225307611B2AAA0 /* Pods-HP_MVVMRACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP_MVVMRACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HP_MVVMRACDemo/Pods-HP_MVVMRACDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D9199A49FD7A4114261018D0 /* Pods-HP_MVVMRACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP_MVVMRACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HP_MVVMRACDemo/Pods-HP_MVVMRACDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FC01480C2758996D2A83FD12 /* libPods-HP_MVVMRACDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HP_MVVMRACDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 		1156942C1F63D726007B0696 /* HP_MVVMRACDemo */ = {
 			isa = PBXGroup;
 			children = (
+				118FA8AA1F751708003624B0 /* tint.png */,
 				115694491F63D795007B0696 /* VC */,
 				1156944A1F63D7A0007B0696 /* ViewModel */,
 				1156944B1F63D7BB007B0696 /* Model */,
@@ -217,6 +220,7 @@
 			files = (
 				1156943D1F63D726007B0696 /* LaunchScreen.storyboard in Resources */,
 				1156943A1F63D726007B0696 /* Assets.xcassets in Resources */,
+				118FA8AB1F751709003624B0 /* tint.png in Resources */,
 				115694381F63D726007B0696 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
