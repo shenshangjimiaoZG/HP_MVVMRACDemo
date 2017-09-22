@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1156942F1F63D726007B0696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1156942E1F63D726007B0696 /* main.m */; };
+		115694321F63D726007B0696 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 115694311F63D726007B0696 /* AppDelegate.m */; };
+		115694381F63D726007B0696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115694361F63D726007B0696 /* Main.storyboard */; };
+		1156943A1F63D726007B0696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115694391F63D726007B0696 /* Assets.xcassets */; };
+		1156943D1F63D726007B0696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1156943B1F63D726007B0696 /* LaunchScreen.storyboard */; };
+		115694461F63D76F007B0696 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115694451F63D76F007B0696 /* LoginViewController.m */; };
+		1164D27E1F63DC4000DCC7E3 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164D27D1F63DC4000DCC7E3 /* LoginViewModel.m */; };
+		1164D2811F63DC5E00DCC7E3 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164D2801F63DC5E00DCC7E3 /* UserInfo.m */; };
+		D88937B80178356C41877702 /* libPods-HP_MVVMRACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC01480C2758996D2A83FD12 /* libPods-HP_MVVMRACDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1156942A1F63D726007B0696 /* HP_MVVMRACDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HP_MVVMRACDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1156942E1F63D726007B0696 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		115694301F63D726007B0696 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		115694311F63D726007B0696 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		115694371F63D726007B0696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		115694391F63D726007B0696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1156943C1F63D726007B0696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1156943E1F63D726007B0696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115694441F63D76F007B0696 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		115694451F63D76F007B0696 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1164D27C1F63DC4000DCC7E3 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		1164D27D1F63DC4000DCC7E3 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		1164D27F1F63DC5E00DCC7E3 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		1164D2801F63DC5E00DCC7E3 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		BD175CAA0225307611B2AAA0 /* Pods-HP_MVVMRACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP_MVVMRACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HP_MVVMRACDemo/Pods-HP_MVVMRACDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D9199A49FD7A4114261018D0 /* Pods-HP_MVVMRACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP_MVVMRACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HP_MVVMRACDemo/Pods-HP_MVVMRACDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FC01480C2758996D2A83FD12 /* libPods-HP_MVVMRACDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HP_MVVMRACDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115694271F63D726007B0696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88937B80178356C41877702 /* libPods-HP_MVVMRACDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057FBB2580B53B9F6EF0F6D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC01480C2758996D2A83FD12 /* libPods-HP_MVVMRACDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		115694211F63D726007B0696 = {
+			isa = PBXGroup;
+			children = (
+				1156942C1F63D726007B0696 /* HP_MVVMRACDemo */,
+				1156942B1F63D726007B0696 /* Products */,
+				C0E6903D82942644D2E85E25 /* Pods */,
+				057FBB2580B53B9F6EF0F6D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1156942B1F63D726007B0696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1156942A1F63D726007B0696 /* HP_MVVMRACDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1156942C1F63D726007B0696 /* HP_MVVMRACDemo */ = {
+			isa = PBXGroup;
+			children = (
+				115694491F63D795007B0696 /* VC */,
+				1156944A1F63D7A0007B0696 /* ViewModel */,
+				1156944B1F63D7BB007B0696 /* Model */,
+				115694481F63D789007B0696 /* View */,
+				115694471F63D77D007B0696 /* AppDelegate */,
+				115694391F63D726007B0696 /* Assets.xcassets */,
+				1156943E1F63D726007B0696 /* Info.plist */,
+				1156942D1F63D726007B0696 /* Supporting Files */,
+			);
+			path = HP_MVVMRACDemo;
+			sourceTree = "<group>";
+		};
+		1156942D1F63D726007B0696 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1156942E1F63D726007B0696 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		115694471F63D77D007B0696 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				115694301F63D726007B0696 /* AppDelegate.h */,
+				115694311F63D726007B0696 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		115694481F63D789007B0696 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1156943B1F63D726007B0696 /* LaunchScreen.storyboard */,
+				115694361F63D726007B0696 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		115694491F63D795007B0696 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				115694441F63D76F007B0696 /* LoginViewController.h */,
+				115694451F63D76F007B0696 /* LoginViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		1156944A1F63D7A0007B0696 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1164D27C1F63DC4000DCC7E3 /* LoginViewModel.h */,
+				1164D27D1F63DC4000DCC7E3 /* LoginViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		1156944B1F63D7BB007B0696 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1164D27F1F63DC5E00DCC7E3 /* UserInfo.h */,
+				1164D2801F63DC5E00DCC7E3 /* UserInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C0E6903D82942644D2E85E25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9199A49FD7A4114261018D0 /* Pods-HP_MVVMRACDemo.debug.xcconfig */,
+				BD175CAA0225307611B2AAA0 /* Pods-HP_MVVMRACDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115694291F63D726007B0696 /* HP_MVVMRACDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115694411F63D726007B0696 /* Build configuration list for PBXNativeTarget "HP_MVVMRACDemo" */;
+			buildPhases = (
+				C8665F69CDD397AFB4A2617F /* [CP] Check Pods Manifest.lock */,
+				115694261F63D726007B0696 /* Sources */,
+				115694271F63D726007B0696 /* Frameworks */,
+				115694281F63D726007B0696 /* Resources */,
+				3D32339250B12F25DE8645B2 /* [CP] Embed Pods Frameworks */,
+				76ACD9F54274D0F64CAAE907 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HP_MVVMRACDemo;
+			productName = HP_MVVMRACDemo;
+			productReference = 1156942A1F63D726007B0696 /* HP_MVVMRACDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115694221F63D726007B0696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = huangping;
+				TargetAttributes = {
+					115694291F63D726007B0696 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ECB9JMTA8K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 115694251F63D726007B0696 /* Build configuration list for PBXProject "HP_MVVMRACDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115694211F63D726007B0696;
+			productRefGroup = 1156942B1F63D726007B0696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115694291F63D726007B0696 /* HP_MVVMRACDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115694281F63D726007B0696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1156943D1F63D726007B0696 /* LaunchScreen.storyboard in Resources */,
+				1156943A1F63D726007B0696 /* Assets.xcassets in Resources */,
+				115694381F63D726007B0696 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D32339250B12F25DE8645B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HP_MVVMRACDemo/Pods-HP_MVVMRACDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76ACD9F54274D0F64CAAE907 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HP_MVVMRACDemo/Pods-HP_MVVMRACDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8665F69CDD397AFB4A2617F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115694261F63D726007B0696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1164D27E1F63DC4000DCC7E3 /* LoginViewModel.m in Sources */,
+				115694321F63D726007B0696 /* AppDelegate.m in Sources */,
+				1156942F1F63D726007B0696 /* main.m in Sources */,
+				1164D2811F63DC5E00DCC7E3 /* UserInfo.m in Sources */,
+				115694461F63D76F007B0696 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		115694361F63D726007B0696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115694371F63D726007B0696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1156943B1F63D726007B0696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1156943C1F63D726007B0696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1156943F1F63D726007B0696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		115694401F63D726007B0696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115694421F63D726007B0696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9199A49FD7A4114261018D0 /* Pods-HP_MVVMRACDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ECB9JMTA8K;
+				INFOPLIST_FILE = HP_MVVMRACDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hp.HP-MVVMRACDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		115694431F63D726007B0696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD175CAA0225307611B2AAA0 /* Pods-HP_MVVMRACDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ECB9JMTA8K;
+				INFOPLIST_FILE = HP_MVVMRACDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hp.HP-MVVMRACDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115694251F63D726007B0696 /* Build configuration list for PBXProject "HP_MVVMRACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1156943F1F63D726007B0696 /* Debug */,
+				115694401F63D726007B0696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115694411F63D726007B0696 /* Build configuration list for PBXNativeTarget "HP_MVVMRACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115694421F63D726007B0696 /* Debug */,
+				115694431F63D726007B0696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 115694221F63D726007B0696 /* Project object */;
+}
