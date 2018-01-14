@@ -18,28 +18,68 @@
     
     [self.subView mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.center.equalTo(self.view);
-        make.size.mas_equalTo(CGSizeMake(300, 300));
+        if(@available(iOS 11.0,*))
+        {
+        make.top.equalTo(self.view.mas_safeAreaLayoutGuideTop).offset(35);
+            make.centerX.equalTo(self.view);
+            make.size.mas_equalTo(CGSizeMake(300, 300));
+        }
+        else
+        {
+            make.center.equalTo(self.view);
+            make.size.mas_equalTo(CGSizeMake(300, 300));
+        }
+        
     }];
     [self.txtUserName mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.centerX.equalTo(self.subView);
-        make.top.equalTo(self.subView.mas_top).offset(50);
-        make.size.mas_equalTo(CGSizeMake(120, 40));
-        make.bottom.equalTo(self.txtPassword.mas_top).offset(-15);
+         if(@available(iOS 11.0,*))
+         {
+             make.centerX.equalTo(self.subView);
+             make.top.equalTo(self.subView.mas_safeAreaLayoutGuideTop).offset(50);
+             make.size.mas_equalTo(CGSizeMake(120, 40));
+             make.bottom.equalTo(self.txtPassword.mas_safeAreaLayoutGuideTop).offset(-15);
+         }
+        else
+        {
+            make.centerX.equalTo(self.subView);
+            make.top.equalTo(self.subView.mas_top).offset(50);
+            make.size.mas_equalTo(CGSizeMake(120, 40));
+            make.bottom.equalTo(self.txtPassword.mas_top).offset(-15);
+        }
         
     }];
     [self.txtPassword mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.txtUserName.mas_bottom).offset(15);
-        make.left.right.equalTo(self.txtUserName);
-        make.size.equalTo(self.txtUserName);
-        make.bottom.equalTo(self.btnLogin.mas_top).offset(-20);
+        
+        if(@available(iOS 11.0,*))
+        {
+            make.top.equalTo(self.txtUserName.mas_safeAreaLayoutGuideBottom).offset(15);
+            make.left.right.equalTo(self.txtUserName);
+            make.size.equalTo(self.txtUserName);
+            make.bottom.equalTo(self.btnLogin.mas_safeAreaLayoutGuideTop).offset(-20);
+        }
+        else
+        {
+            make.top.equalTo(self.txtUserName.mas_bottom).offset(15);
+            make.left.right.equalTo(self.txtUserName);
+            make.size.equalTo(self.txtUserName);
+            make.bottom.equalTo(self.btnLogin.mas_top).offset(-20);
+        }
     }];
     [self.btnLogin mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.centerX.equalTo(self.subView);
-        make.top.equalTo(self.txtPassword.mas_bottom).offset(20);
-        make.size.mas_equalTo(CGSizeMake(150, 50));
+        if(@available(iOS 11.0,*))
+        {
+            make.centerX.equalTo(self.subView);
+            make.top.equalTo(self.txtPassword.mas_safeAreaLayoutGuideBottom).offset(20);
+            make.size.mas_equalTo(CGSizeMake(150, 50));
+        }
+        else
+        {
+            make.centerX.equalTo(self.subView);
+            make.top.equalTo(self.txtPassword.mas_bottom).offset(20);
+            make.size.mas_equalTo(CGSizeMake(150, 50));
+        }
     }];
     
     LoginViewModel *m=[[LoginViewModel alloc]init];
